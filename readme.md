@@ -4,6 +4,6 @@
 <ul>
     <li> Add item</li>
     <li> Remove item</li>
-    <li> Edit item</li>
+    
 
 </ul>
