@@ -7,7 +7,7 @@ btn.onclick=()=>{
     const deleteBtn = document.createElement('button');
     const btn = document.querySelector('#delete');
     
-    li.className="flex justify-between flex-wrap my-1 font-mono font-medium text-[20px]"
+    li.className="flex justify-between items-center flex-wrap mt-4 font-mono font-medium text-[20px]"
     li.textContent=`${text.value}`
 
     deleteBtn.innerHTML= `<button id='delete'><i class="fa-duotone text-red-400 fa-solid fa-trash"></i></button>`
