@@ -3,7 +3,7 @@ const btn = document.getElementById('btn')
 const list = document.getElementById('list');
 btn.onclick=()=>{
   if(!text.value==''){
-      const li = document.createElement('li');
+    const li = document.createElement('li');
     const deleteBtn = document.createElement('button');
     const btn = document.querySelector('#delete');
     
