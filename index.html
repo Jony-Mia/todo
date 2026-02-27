@@ -4,8 +4,28 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>To Do List</title>
-</head>
-<body>
+  <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+
+    <link rel="stylesheet" href="https://site-assets.fontawesome.com/releases/v7.2.0/css/fontawesome.css">
+    <link rel="stylesheet" href="https://site-assets.fontawesome.com/releases/v7.2.0/css/solid.css">
+    <link rel="stylesheet" href="https://site-assets.fontawesome.com/releases/v7.2.0/css/brands.css">
+    <link rel="stylesheet" href="https://site-assets.fontawesome.com/releases/v7.2.0/css/duotone.css">
     
+</head>
+<body class="min-h-screen max-w-md p-3 m-auto">
+    <h1 class="text-3xl font-bold">To Do list</h1>
+    <section>
+        <div class="flex gap-3 items-center">
+            <input type="text" id="text" placeholder="Enter your task" class="border-cyan-500 px-4 my-4 py-2 rounded w-md border">
+            <button id="btn" class="bg-blue-400 rounded-2xl text-white px-5 py-2.5 active:translate-y-1 h-full">Add</button>
+        </div>
+    </section>
+
+    <section class="bg-gray-100  p-1 rounded-2xl">
+        <h2 class="text-center font-bold text-lg mt-2">Task List</h2>
+        <ul id="list" class="p-2 m-2 list-decimal"></ul>
+    </section>
+
+    <script src="main.js"></script>
 </body>
 </html>
